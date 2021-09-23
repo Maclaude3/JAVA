@@ -7,7 +7,7 @@ public class OlaMundo{
 		Scanner scn = new Scanner(System.in);
 		
 		System.out.print("\nDigite a mensagem: ");
-		String msg = scn.next();
+		String msg = scn.nextLine();
 		
 		System.out.println(msg);
 	}
